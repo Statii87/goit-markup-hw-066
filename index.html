@@ -14,6 +14,38 @@
   <body>
     <div class="modal is-hidden" data-modal>
       <div class="inner-modal">
+        <h3 class="inner-title">Leave your information and we'll call you back</h3>
+        <form name="modal form">
+          <label class="form-label">
+            Name
+              <svg class="icon-person icon-form">
+                <use href="images/close-modal.svg#icon-person"></use>
+              </svg>
+              <input type="text" name="name" autocomplete="off" class="inner-contact">
+          </label>
+          <label class="form-label">
+            Telephone
+            <svg class="icon-phone icon-form">
+                <use href="images/close-modal.svg#icon-phone"></use>
+              </svg>
+            <input type="tel" name="phone" autocomplete="off" class="inner-contact">
+          </label>
+          <label class="form-label">
+            E-mail
+            <svg class="icon-mail icon-form">
+                <use href="images/close-modal.svg#icon-email"></use>
+              </svg>
+            <input type="mail" name="e-mail" autocomplete="off" class="inner-contact">
+          </label>
+          <label class="form-label">
+            Comments
+            <textarea name="comments"  placeholder="Enter the text" class="inner-comments"></textarea>
+          </label>
+          <label>
+            <input type="checkbox" name="terms and conditions" class="terms-conditions">I agree with the letter and accept the <span class="terms-conditions-last">Terms and Conditions</span>
+          </label>
+          <button type="submit" class="send-button">Send</button>
+        </form>
         <div class="close-bg-modal" data-modal-close>
           <svg class="close-modal-icon">
             <use href="images/close-modal.svg#icon-close-modal"></use>
@@ -378,7 +410,7 @@
         <div class="subscribe-section">
           <form name="subscribe" autocomplete="off" class="form-subscribe">
               <p class="subscribe-text">Subscribe to the newsletter</p>
-              <label class="form-label"></label>
+              <label class=""></label>
               <input type="email" name="email" class="imput-form" placeholder="E-mail">
             </label>
             <button type="submit" class="subscribe-button">Subscribe 

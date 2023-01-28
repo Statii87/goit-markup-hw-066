@@ -537,7 +537,7 @@ display: block;
   position: relative;
   border-radius: 4px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
- 
+  padding: 40px;
 }
 .close-modal-icon{
 width: 11px;
@@ -626,3 +626,90 @@ margin: 0;
   border: none;
   cursor: pointer;
 }
+.form-label{
+  display: flex;
+  flex-direction: column;
+  color: var(--description-color);
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+  position: relative;
+}
+.icon-form{
+  position: absolute;
+  top: 46%;
+  left: 15px;
+}
+.icon-person{
+  height: 12px;
+  width: 12px;
+}
+.icon-phone{
+  width: 13px;
+  height: 13px;
+}
+.icon-mail{
+  width: 15px;
+  height: 12px;
+}
+.inner-title{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  color: var(--most-color);
+  margin-top: 0;
+}
+.inner-contact{
+  width: 448px;
+  height: 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  margin-top: 4px;
+  margin-bottom: 10px;
+  padding-left: 40px;
+}
+.inner-comments{
+  width: 448px;
+  height: 120px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  resize: none;
+  margin-top: 4px;
+  margin-bottom: 20px;
+  padding: 16px 12px;
+}
+.inner-comments::placeholder{
+  color: rgba(117, 117, 117, 0.5);
+  font-size: 12px;
+  letter-spacing: 0.01em;
+}
+.terms-conditions-last{
+  color:var(--highlight-color);
+  text-decoration: underline; 
+  cursor: pointer;
+}
+.terms-conditions{
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--description-color);
+  text-align: center;
+  margin: 0 12px;
+}
+.send-button{
+  text-align: center;
+  margin: 30px 124px;
+  background-color: var(--highlight-color);
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+  border-radius: 4px;
+  width: 200px;
+  height: 50px;
+  border: none;
+  color: var(--white-color);
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+}
+
