@@ -343,6 +343,8 @@ footer {
   display: flex;
   max-width: 1200px;
   margin: 0px auto;
+  gap: 94px;
+  justify-content: space-between;
 }
 .footer-contact {
   
@@ -390,7 +392,6 @@ footer {
 }
 .social-section{
   margin-top: 75px;
-  margin-left: 94px;
 }
 .social-footer-list{
   display: flex;
@@ -564,4 +565,60 @@ fill: currentColor;
   opacity:0;
   pointer-events:none;
   transform: scale(2);
+}
+.subscribe-button{
+  position: relative;
+}
+.plane-icon{
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 28px;
+  top: 13px;
+}
+.subscribe-text{
+font-weight: 700;
+font-size: 14px;
+text-transform: uppercase;
+padding-top: 72px;
+padding-bottom: 20px;
+color: var(--white-color);
+margin: 0;
+}
+.imput-form{
+  background-color: transparent;
+  width: 358px;
+  height: 50px;
+  box-shadow: none;
+  outline: none;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+}
+.imput-form::placeholder{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  color: rgba(255, 255, 255, 0.6);
+  padding-left: 16px;
+}
+            
+.subscribe-button{
+  margin-left: 12px;
+  height: 50px;
+  width: 200px;
+  background-color: var(--highlight-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: var(--white-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  padding-right: 77px;
+  text-align: end;
+  box-shadow: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
 }
