@@ -668,6 +668,21 @@ margin: 0;
   margin-top: 4px;
   margin-bottom: 10px;
   padding-left: 40px;
+  cursor: pointer;
+}
+.inner-contact:focus-within, .form-label:focus-within{
+  outline: none;
+  border-color: var(--highlight-color);
+  fill: var(--highlight-color);
+}
+.inner-comments:focus-within{
+  outline: none;
+  border-color: var(--highlight-color);
+}
+.send-button:hover,
+.send-button:focus,
+.send-button:active{
+  background-color: var(--hover-bt-color);
 }
 .inner-comments{
   width: 448px;
