@@ -687,11 +687,16 @@ margin: 0;
 .check-box{
   position: relative;
   margin-left: 14px;
+  display: inline-flex;
+  gap: 9px;
+  align-items: center;
+  color: var(--description-color);
 }
 .check-box-replace{
   width: 16px;
   height: 15px;
   fill: currentColor;
+  color: var(--most-color);
 }
 input[type="checkbox"]{
   display: none;
@@ -705,11 +710,10 @@ input[type="checkbox"]:checked+.check-box-replace+.icon-check{
   opacity: 1;
 }
 .icon-check{
-  width: 16px;
-  height: 13px;
+  width: 13px;
+  height: 11px;
   position: absolute;
-  top:0;
-  left:0;
+  left:2px;
   opacity: 0;
   transition: opacity 250ms linear;
 }
