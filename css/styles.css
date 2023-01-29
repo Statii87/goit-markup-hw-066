@@ -684,6 +684,35 @@ margin: 0;
 .send-button:active{
   background-color: var(--hover-bt-color);
 }
+.check-box{
+  position: relative;
+  margin-left: 14px;
+}
+.check-box-replace{
+  width: 16px;
+  height: 15px;
+  fill: currentColor;
+}
+input[type="checkbox"]{
+  display: none;
+}
+input[type="checkbox"]:checked+.check-box-replace{
+  fill: var(--highlight-color);
+  background-color: var(--highlight-color);
+  border-radius: 2px;
+}
+input[type="checkbox"]:checked+.check-box-replace+.icon-check{
+  opacity: 1;
+}
+.icon-check{
+  width: 16px;
+  height: 13px;
+  position: absolute;
+  top:0;
+  left:0;
+  opacity: 0;
+  transition: opacity 250ms linear;
+}
 .inner-comments{
   width: 448px;
   height: 120px;
